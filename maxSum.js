@@ -8,7 +8,6 @@ function maxSum(arr,range){
             sum += arr[i];
         }
         sums.push(sum);
-        console.log(sums);
         n++;
     }
     return Math.max(...sums);
