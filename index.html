@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>codeWars</title>
+</head>
+<body>
+
+</body>
+<script>
+    function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+        let youMoved = sharkDistance, sharkMoved = 0;
+
+        if (dolphin) parseInt(sharkSpeed /= 2);
+
+        while (youMoved < pontoonDistance) {
+            sharkMoved += sharkSpeed;
+            youMoved += youSpeed;
+            console.log('youMoved: '+youMoved+' sharkMoved: '+sharkMoved);
+            if (youMoved <= sharkMoved) {
+                return "Shark Bait!";
+            }
+        }
+        return "Alive!";
+    }
+
+    console.log(shark(29, 5, 2, 2, true));
+
+</script>
+</html>
