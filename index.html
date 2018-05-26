@@ -8,23 +8,10 @@
 
 </body>
 <script>
-    function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
-        let youMoved = sharkDistance, sharkMoved = 0;
 
-        if (dolphin) parseInt(sharkSpeed /= 2);
-
-        while (youMoved < pontoonDistance) {
-            sharkMoved += sharkSpeed;
-            youMoved += youSpeed;
-            console.log('youMoved: '+youMoved+' sharkMoved: '+sharkMoved);
-            if (youMoved <= sharkMoved) {
-                return "Shark Bait!";
-            }
-        }
-        return "Alaive!";
-    }
-
-    console.log(shark(29, 5, 2, 2, true));
+    console.time('start');
+    console.log();
+    console.timeEnd('start');
 
 </script>
 </html>
