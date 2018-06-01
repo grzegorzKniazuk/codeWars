@@ -9,3 +9,8 @@ function remove(s,n){
     }
     return letters.join('');
 }
+
+function remove(s){
+    s = s.replace(/!/g, '');
+    return s + '!';
+}
