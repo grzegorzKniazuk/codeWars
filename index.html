@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>codeWars</title>
     <script src="8 kyu/century.js"></script>
+    <script src="8 kyu/first.js"></script>
 </head>
 <body>
 
@@ -36,16 +37,16 @@
         return false;
     }
 
-    function grader(score) {
-        if      (score < 0.6) return 'F';
-        else if (score > 1) return 'F';
-        else if (score >= 0.9) return 'A';
-        else if (score >= 0.8) return 'B';
-        else if (score >= 0.7) return 'C';
-        else if (score >= 0.6) return 'D';
+    function firstNonConsecutive (arr) {
+
+        for (let i = 0; i < arr.length-1; i++) {
+            if (arr[i]+1 !== arr[i+1]) return arr[i+1];
+        }
+
+        return null;
     }
 
-    console.log(uniTotal("aaa"));
+    console.log(repeatIt("Hello",11));
 
     /*
     console.time('test');
