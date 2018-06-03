@@ -11,6 +11,7 @@ function remove(s,n){
 }
 
 function remove(s){
-    s = s.replace(/!/g, '');
-    return s + '!';
+    s = s.split('');
+    if (s[s.length-1] === '!') s.pop();
+    return s.join('');
 }
