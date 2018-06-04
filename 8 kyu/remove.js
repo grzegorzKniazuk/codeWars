@@ -15,3 +15,15 @@ function remove(s){
     if (s[s.length-1] === '!') s.pop();
     return s.join('');
 }
+
+function remove(s){
+    let i = s.length-1;
+    s = s.split('');
+
+    while (s[i] === '!') {
+        s.pop();
+        i--;
+    }
+
+    return s.join('');
+}

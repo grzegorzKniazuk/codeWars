@@ -37,16 +37,15 @@
         return false;
     }
 
-    function firstNonConsecutive (arr) {
-
-        for (let i = 0; i < arr.length-1; i++) {
-            if (arr[i]+1 !== arr[i+1]) return arr[i+1];
+    function duckDuckGoose(players, goose) {
+        while (goose > players.length) {
+            goose -= players.length;
         }
-
-        return null;
+        return players[goose].name;
     }
 
-    console.log(repeatIt("Hello",11));
+
+    console.log(isOpposite("AitlFccskw","aITLfCCSK"));
 
     /*
     console.time('test');
