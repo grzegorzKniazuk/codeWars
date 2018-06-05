@@ -3,46 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>codeWars</title>
-    <script src="8 kyu/century.js"></script>
-    <script src="8 kyu/first.js"></script>
 </head>
 <body>
 
 </body>
 <script>
 
-    function sumOfTwo(a, b, v) {
-
-        let i = a.length,
-            k = b.length,
-            j = k;
-            //maxA = Math.max(a),
-            //maxB = Math.max(b);
-
-        a = a.filter(value => {
-           return value <= v;
-        });
-
-        b = b.filter(value => {
-            return value <= v;
-        });
-
-        while (i--) {
-            while (j--) {
-                if (a[i] + b[j] === v) return true;
-            }
-            j = k;
-        }
-
-        return false;
-    }
-
-    function litres(time) {
-        return Math.floor(time * 0.5);
-    }
-
-
-    console.log(isOpposite("AitlFccskw","aITLfCCSK"));
+    String.prototype.digit = function() {
+        return this.test(/[0-9]{1}/);
+    };
 
 </script>
 </html>
