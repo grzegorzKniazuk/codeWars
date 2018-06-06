@@ -8,8 +8,14 @@
 
 </body>
 <script>
-    function rentalCarCost(d) {
-        return d >= 3 ? (d >= 7 ? d * 40 - 50 : d * 40 - 20) : d * 40;
+    function powersOfTwo(n){
+        let result = [];
+
+        for (let i = 0; i <= n; i++) {
+            result.push(Math.pow(2, i));
+        }
+
+        return result;
     }
 
     console.log(validateHello("haSta cZESc wIe BIen DOInG; Tres; QUE que; trEs hOMbrE"));
