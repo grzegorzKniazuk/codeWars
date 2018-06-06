@@ -8,10 +8,11 @@
 
 </body>
 <script>
+    function rentalCarCost(d) {
+        return d >= 3 ? (d >= 7 ? d * 40 - 50 : d * 40 - 20) : d * 40;
+    }
 
-    String.prototype.digit = function() {
-        return this.test(/[0-9]{1}/);
-    };
+    console.log(validateHello("haSta cZESc wIe BIen DOInG; Tres; QUE que; trEs hOMbrE"));
 
 </script>
 </html>

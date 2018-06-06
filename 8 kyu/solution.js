@@ -8,3 +8,9 @@ function solution(a, b){
 
     return short.concat(long, short);
 }
+
+class Solution{
+    static main() {
+        console.log('Hello World!');
+    }
+}

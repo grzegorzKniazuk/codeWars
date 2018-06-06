@@ -37,3 +37,8 @@ function greet(language) {
         return database[language];
     }
 }
+
+
+function greet (name, owner) {
+    return `Hello ${name === owner ? 'boss' : 'guest'}`;
+}
