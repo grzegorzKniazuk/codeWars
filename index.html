@@ -8,15 +8,14 @@
 
 </body>
 <script>
-    function powersOfTwo(n){
-        let result = [];
-
-        for (let i = 0; i <= n; i++) {
-            result.push(Math.pow(2, i));
-        }
-
-        return result;
+    function include(arr, item){
+        return arr.includes(item);
     }
+
+    /*
+    uefaEuro2016(['Belgium', 'Italy'],[0, 2]) // "At match Belgium - Italy, Italy won!"
+    uefaEuro2016(['Portugal', 'Iceland'],[1, 1]) // "At match Portugal - Iceland, teams played draw."
+     */
 
     console.log(validateHello("haSta cZESc wIe BIen DOInG; Tres; QUE que; trEs hOMbrE"));
 
