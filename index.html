@@ -8,9 +8,19 @@
 
 </body>
 <script>
-    function greetDevelopers(list) {
-           a
+
+    function correctPolishLetters (string) {
+        return string.replace(/ą/g,'a')
+              .replace(/ć/g,'c')
+              .replace(/ę/g,'e')
+              .replace(/ł/g,'l')
+              .replace(/ń/g,'n')
+              .replace(/ó/g,'o')
+              .replace(/ś/g,'s')
+              .replace(/[źż]/g,'s')
     }
+
+    console.log(printArray([2,4,5,2]));
 
 </script>
 </html>
