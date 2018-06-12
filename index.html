@@ -3,24 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>codeWars</title>
+    <script src="8 kyu/match.js"></script>
 </head>
 <body>
 
 </body>
 <script>
 
-    function correctPolishLetters (string) {
-        return string.replace(/ą/g,'a')
-              .replace(/ć/g,'c')
-              .replace(/ę/g,'e')
-              .replace(/ł/g,'l')
-              .replace(/ń/g,'n')
-              .replace(/ó/g,'o')
-              .replace(/ś/g,'s')
-              .replace(/[źż]/g,'s')
+    function nextItem(xs, item) {
+        return xs.indexOf(item) !== -1 ? (xs[xs.indexOf(item)+1] !== undefined ? xs[xs.indexOf(item)+1] : undefined) : undefined;
     }
 
-    console.log(printArray([2,4,5,2]));
+
+    console.log(nextItem("testing", "t"));
+
 
 </script>
 </html>
