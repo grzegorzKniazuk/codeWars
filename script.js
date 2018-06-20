@@ -1,3 +1,5 @@
+function playerManager(players) {
+    console.log(arguments);
+}
 
-
-console.log(inAscOrder([1, 6, 10, 18, 2, 4, 20]));
+console.log(playerManager("John Doe, 8167238327, Jane Doe, 8163723827"));
