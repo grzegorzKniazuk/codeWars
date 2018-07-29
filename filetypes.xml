@@ -1,8 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="dtd_zew" type="DTD" />
+      <mapping pattern="dtd" type="DTD" />
       <mapping pattern="notes" type="PLAIN_TEXT" />
       <mapping ext="data" type="TypeScript" />
+      <mapping pattern="root_parent_child_sibilings" type="XML" />
     </extensionMap>
   </component>
 </application>
