@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="manifest" type="C++" />
       <mapping pattern="dtd" type="DTD" />
       <mapping pattern="warunek" type="DTD" />
       <mapping pattern="dtd_zew" type="DTD" />
