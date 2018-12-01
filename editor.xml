@@ -7,7 +7,7 @@
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
-  <component name="LiveEditOptions" chromeUpdateApp="true" chromeUpdateOnChanges="true" nodeUpdateOnChanges="true">
+  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" useJBChromeExtension="true">
     <option name="elementHighlighting" value="true" />
   </component>
 </application>
