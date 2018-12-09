@@ -7,6 +7,7 @@
       <mapping pattern="dtd_zew" type="DTD" />
       <mapping pattern="schema01.xsd" type="PLAIN_TEXT" />
       <mapping pattern="key" type="PLAIN_TEXT" />
+      <mapping pattern="email" type="PLAIN_TEXT" />
       <mapping pattern="notes" type="PLAIN_TEXT" />
       <mapping ext="data" type="TypeScript" />
       <mapping pattern="root_parent_child_sibilings" type="XML" />
