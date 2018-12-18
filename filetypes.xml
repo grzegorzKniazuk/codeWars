@@ -1,0 +1,16 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="manifest" type="C++" />
+      <mapping pattern="dtd" type="DTD" />
+      <mapping pattern="warunek" type="DTD" />
+      <mapping pattern="dtd_zew" type="DTD" />
+      <mapping pattern="schema01.xsd" type="PLAIN_TEXT" />
+      <mapping pattern="key" type="PLAIN_TEXT" />
+      <mapping pattern="email" type="PLAIN_TEXT" />
+      <mapping pattern="notes" type="PLAIN_TEXT" />
+      <mapping ext="data" type="TypeScript" />
+      <mapping pattern="root_parent_child_sibilings" type="XML" />
+    </extensionMap>
+  </component>
+</application>
