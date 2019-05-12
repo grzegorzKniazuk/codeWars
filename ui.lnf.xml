@@ -1,8 +1,0 @@
-<application>
-  <component name="UISettings">
-    <option name="EDITOR_TAB_LIMIT" value="100" />
-    <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
-    <option name="SHOW_MEMORY_INDICATOR" value="true" />
-    <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
-  </component>
-</application>
