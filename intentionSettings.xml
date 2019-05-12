@@ -1,5 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="JavaScript/ECMAScript 6/Change ES6 import " />
-  </component>
-</application>
