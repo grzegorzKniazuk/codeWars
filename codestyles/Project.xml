@@ -14,6 +14,13 @@
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
+  <codeStyleSettings language="SCSS">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="RIGHT_MARGIN" value="150" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
